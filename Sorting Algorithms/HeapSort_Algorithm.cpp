@@ -3,14 +3,10 @@ using namespace std;
     /*   Heap Sort Implementation   */
 void Heapify(int A[],int N,int i)
 {
-	int left=2*i+1,right=2*i+2,max,temp;
+	int left=2*i+1,right=2*i+2,max=i,temp;
 	if(left<N && A[left]>A[i])
 	{
 		max=left;
-	}
-	else
-	{
-		max=i;
 	}
 	if(right<N && A[right]>A[max])
 	{
@@ -61,5 +57,5 @@ int main()
     {
         cout<<A[i]<<" ";
     }
-	return 0;
+    return 0;
 }
