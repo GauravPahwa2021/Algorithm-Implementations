@@ -62,18 +62,18 @@ void MergeSort(int A[],int lb,int ub)
 }
 int main()
 {
-    int A[]={66,44,11,33,55,77,22,88,99};
-    int N=sizeof(A)/sizeof(A[0]);
-    cout<<"Before Sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-    MergeSort(A,0,N-1);
-    cout<<"\nAfter Sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-	return 0;
+       int A[]={66,44,11,33,55,77,22,88,99};
+       int N=sizeof(A)/sizeof(A[0]);
+       cout<<"Before Sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+           cout<<A[i]<<" ";
+       }
+       MergeSort(A,0,N-1);
+       cout<<"\nAfter Sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+           cout<<A[i]<<" ";
+       }
+       return 0;
 }
