@@ -24,16 +24,16 @@ int BinarySearch(int A[],int N,int data)
 }
 int main()
 {
-    int A[]={11,22,33,44,55,66,77,88,99};
-    int N=sizeof(A)/sizeof(A[0]);
-    cout<<"Array Elements"<<endl;
-    for(int i=0; i<N; i++)
-    {
+     int A[]={11,22,33,44,55,66,77,88,99};
+     int N=sizeof(A)/sizeof(A[0]);
+     cout<<"Array Elements"<<endl;
+     for(int i=0; i<N; i++)
+     {
         cout<<A[i]<<" ";
-    }
-    int x=BinarySearch(A,N,33);
-    cout<<"\nIndex value of 33 is "<<x;
-    int y=BinarySearch(A,N,77);
-    cout<<"\nindex value of 77 is "<<y;
-    return 0;
+     }
+     int x=BinarySearch(A,N,33);
+     cout<<"\nIndex value of 33 is "<<x;
+     int y=BinarySearch(A,N,77);
+     cout<<"\nindex value of 77 is "<<y;
+     return 0;
 }
