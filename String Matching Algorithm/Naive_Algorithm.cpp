@@ -35,7 +35,7 @@ void Naive(char* T,char* P)
 int main()
 {
 	char txt[]="AABAACAADAABAAABAA";
-    char pat[]="AABA";
-    Naive(txt,pat);
+        char pat[]="AABA";
+        Naive(txt,pat);
 	return 0;
 }
