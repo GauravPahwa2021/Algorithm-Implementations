@@ -21,17 +21,17 @@ void SelectionSort(int A[],int N)
 int main()
 {
 	int A[] = { 12, 11, 13, 5, 6, 20, 7 };
-    int N = sizeof(A)/sizeof(A[0]);
-    cout<<"Before sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-    SelectionSort(A,N);
-    cout<<"\nAfter sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
+        int N = sizeof(A)/sizeof(A[0]);
+        cout<<"Before sorting"<<endl;
+        for(int i=0; i<N; i++)
+        {
+           cout<<A[i]<<" ";
+        }
+        SelectionSort(A,N);
+        cout<<"\nAfter sorting"<<endl;
+        for(int i=0; i<N; i++)
+        {
+           cout<<A[i]<<" ";
+        }
 	return 0;
 }
