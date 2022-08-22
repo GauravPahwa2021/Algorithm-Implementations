@@ -37,18 +37,18 @@ void QuickSort(int A[],int lb,int ub)
 }
 int main()
 {
-    int A[]={44,33,11,55,77,22,66,99,88};
-    int N=sizeof(A)/sizeof(A[0]);
-    cout<<"Before Sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-    QuickSort(A,0,N-1);
-    cout<<"\nAfter Sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-	return 0;
+       int A[]={44,33,11,55,77,22,66,99,88};
+       int N=sizeof(A)/sizeof(A[0]);
+       cout<<"Before Sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+          cout<<A[i]<<" ";
+       }
+       QuickSort(A,0,N-1);
+       cout<<"\nAfter Sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+           cout<<A[i]<<" ";
+       }
+       return 0;
 }
