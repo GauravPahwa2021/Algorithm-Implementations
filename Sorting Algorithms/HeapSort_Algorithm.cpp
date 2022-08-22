@@ -44,18 +44,18 @@ void HeapSort(int A[],int N)
 }
 int main()
 {
-    int A[]={56,11,32,45,95,62,81,9,73};
-    int N=sizeof(A)/sizeof(A[0]);
-    cout<<"Before sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-    HeapSort(A,N);
-    cout<<"\nAfter sorting"<<endl;
-    for(int i=0; i<N; i++)
-    {
-        cout<<A[i]<<" ";
-    }
-    return 0;
+       int A[]={56,11,32,45,95,62,81,9,73};
+       int N=sizeof(A)/sizeof(A[0]);
+       cout<<"Before sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+           cout<<A[i]<<" ";
+       }
+       HeapSort(A,N);
+       cout<<"\nAfter sorting"<<endl;
+       for(int i=0; i<N; i++)
+       {
+          cout<<A[i]<<" ";
+       }
+       return 0;
 }
