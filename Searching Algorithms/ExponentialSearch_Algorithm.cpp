@@ -34,15 +34,15 @@ int ExponentialSearch(int A[],int N,int data)
 }
 int main()
 {
-   int A[] = {10,20,30,40,50,60,70,80,90,100};
-   int N = sizeof(A)/ sizeof(A[0]);
-   cout<<"Array Elements Are"<<endl;
-   for(int i=0; i<N; i++)
-   {
+      int A[] = {10,20,30,40,50,60,70,80,90,100};
+      int N = sizeof(A)/ sizeof(A[0]);
+      cout<<"Array Elements Are"<<endl;
+      for(int i=0; i<N; i++)
+      {
    	    cout<<A[i]<<" ";
-   }
-   int x = 90;
-   int result=ExponentialSearch(A,N,x);
-   (result==-1)?cout<<"\nElement is not present in array":cout<<"\nElement is present at index "<<result;
-   return 0;
+      }
+      int x = 90;
+      int result=ExponentialSearch(A,N,x);
+      (result==-1)?cout<<"\nElement is not present in array":cout<<"\nElement is present at index "<<result;
+      return 0;
 }
