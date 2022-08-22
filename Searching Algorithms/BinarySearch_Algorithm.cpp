@@ -35,5 +35,5 @@ int main()
     cout<<"\nIndex value of 33 is "<<x;
     int y=BinarySearch(A,N,77);
     cout<<"\nindex value of 77 is "<<y;
-	return 0;
+    return 0;
 }
